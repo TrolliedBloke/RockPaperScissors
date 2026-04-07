@@ -1,9 +1,5 @@
-function getComputerChoice() {
-  return Math.floor(Math.random() * 3);
-}
-console.log(getComputerChoice());
+let choices = ["rock", "paper", "scissors"];
 
-function getHumanChoice() {
-  return parseInt(prompt("Rock(0) | Paper(1) | Scissors(2)"));
+function getComputerChoice(choices) {
+  let response = Math.floor(Math.random) * choices.length;
 }
-console.log(getHumanChoice());
