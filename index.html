@@ -1,21 +1,24 @@
+s
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Odin Practice</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>Rock Paper Scissors</h1>
-    <div class="buttons">
-      <button data-choice="rock">Rock</button>
-      <button data-choice="paper">Paper</button>
-      <button data-choice="scissors">Scissors</button>
+    <div id="user-display">
+      <h1>Rock Paper Scissors!</h1>
+      <div id="scoreboard">Begin...</div>
+      <div id="game-state">Who Will Win?...</div>
+      <div id="game-controls">
+        <button>ROCK</button>
+        <button>PAPER</button>
+        <button>SCISSORS</button>
+      </div>
+      <button id="reset-button">RESET</button>
     </div>
-    <div class="result" id="result">Make your move!</div>
-    <div class="score" id="score">Player: 0 | Computer: 0</div>
-
-    <script src="app.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
